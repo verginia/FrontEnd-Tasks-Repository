@@ -30,7 +30,7 @@ Second part:
 
 ## Task 3:
 1. Create an html file containing all studied head tags:
-<script>, <base>, <link>, <style>, <meta>, <title>. + 
+* <script>, <base>, <link>, <style>, <meta>, <title>. 
 2. Push this file to your private github repository.
 
 ## Task 4:
