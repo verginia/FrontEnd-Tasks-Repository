@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Head Tags Tutorial">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Verginia Stolear">
+
+  <title>HTML Tags</title>
+  <link rel="stylesheet" href="css/style.css">
+  <base href="https://tekwill.md/course/" target="_blank">
+  <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    }
+    </script>
+</head>
+<body>
+<!-- Write your comments here -->
+The content of the document......<br>
+<!-- Added below first block with color as image -->
+<p>First block with color as image</p>
+<div class="color-block" id="color1">
+    <div class="color-image" style="background-color: FireBrick;"></div>
+    <div class="color-details">
+      <span class="color-name">Fire Brick</span>
+      <span class="additional-info">Firebrick is a medium dark bright shade of Pinkish Red. 
+        It belongs to the color family Dark Crimson, and it has medium lightness and high saturation. Firebrick is a warm color.</span>
+    </div>
+  </div>
+<!-- Added below the second block with color as image --> 
+<p>The second block with color as image</p> 
+  <div class="color-block" id="color2">
+    <div class="color-image" style="background-color: coral;"></div>
+    <div class="color-details">
+      <span class="color-name">Coral</span>
+      <span class="additional-info">The color coral is a medium light shade of red-orange.</span>
+    </div>
+  </div>
+<!-- Added below the third block with color as image -->  
+<p>The third block with color as image</p>
+  <div class="color-block" id="color3">
+    <div class="color-image" style="background-color: #32cd32;"></div>
+    <div class="color-details">
+      <span class="color-name">Lime Green</span>
+      <span class="additional-info">Lime Green is a bright green color resembling that of the skin of a lime.</span>
+    </div>
+  </div>
+<hr>
+<br>
+  <div class="image-container">
+    <img src="unsplash.jpg" alt="Unsplash Image">
+    <div class="info">
+      Additional information about the image.
+    </div>
+  </div>
+<!-- Added below the all headings ordered from the last important to the most important one -->
+<h6>1. The paragraph about "meta" element.</h6>
+<pre>The "meta" element is typically used to specify the character set, page description, keywords, author of the document, and viewport settings.</pre>
+<p>The <strong>metadata</strong> will not be displayed on the page, but is used by browsers (how to display content or reload page), 
+    by search engines (keywords), and other web services.</p>
+
+<h5>2. The paragrath about "title" element.</h5>
+<p>The content of the <b>title</b> element is displayed in the browser tab, in favorites and in search-engine results.</p>
+<p>The content of the body element is displayed in the browser window.</p>
+
+<h4>3. The paragrath about "style" element.</h4>
+<p>The <i>style</i> element is used to define style information for a single HTML page.</p>
+
+<h3>4. The paragrath about "link" element.</h3>
+<p>The "link" element defines the relationship between the current document and an external resource.</p>
+<p><small>The "link" tag is most often used to link to external style sheets.</small></p>
+
+<h2>5. The paragrath about "base" element.</h2>
+<p>The <b>base</b> element specifies the base URL and/or target for all relative URLs in a page.</p>
+<p>The <i>base</i> tag must have either an href or a target attribute present, or both.</p>
+<p>There can only be one single "base" element in a document!</p>
+
+<p><a href="front-end-development/">HTML base tag</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. 
+    This is because the target attribute of the base element is set to "_blank".</p>
+
+<h1>6. The paragrath about "script" element.</h1> 
+<p>The <strong>script</strong> element is used to define client-side JavaScripts. The following JavaScript writes "Hello JavaScript!" into an HTML element with id="demo"</p>   
+
+<p id="demo">The script element</p>
+<button type="button" onclick="myFunction()">Try it</button><br>
+<hr>
+<br>
+<button type="button"
+onclick="document.getElementById('date').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<p id="date"></p>
+<hr>
+<h3>7. The paragraph about chemical and math formulas.</h3>
+<p>This text contains <sub>subscript</sub> text like chemical formula for water H<sub>2</sub>O and 
+    ethanol C<sub>2</sub>H<sub>5</sub>OH.</p>
+<p>This text contains <sup>superscript</sup> text like math formula for Pythagorean equation as 
+    c<sup>2</sup> = a<sup>2</sup> + b<sup>2</sup>.</p></p>
+</body>
+
+</html>
