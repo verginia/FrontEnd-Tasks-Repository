@@ -47,3 +47,17 @@ one
 ![elements](4.1.jpg)
 
 3. Readme.md file with done execises.
+
+## Task 6:
+
+1. create a file table.html and set the title and a top level heading to Table I. Use what you've learned in this lesson to produce the following table(**) inside the new document:
+![table](6.1.png)
+
+2. Create a form with minimum fields those shown in the image.
+- 3 fields should be required
+- 1 field should be readonly with some default data
+- add password field with minimum 8 characters
+- all fields should have placeholder
+- add reset button
+- add file input which will accept only images
+![form](6.2.png)
