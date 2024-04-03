@@ -47,3 +47,7 @@ one
 ![elements](4.1.jpg)
 
 3. Readme.md file with done execises.
+
+## Task 7: 
+1. Create a new html file containing a table (at your discretion). Style the file with internal css style. You should use all type of selectors which you know.
+2. Create a new html file containing a nested list. Create a new .css file calles listStyle.css. Add styles to the list and import it as external style css. example of styling: text-size, text-font, background-color, border, text-align, color…
