@@ -47,3 +47,10 @@ one
 ![elements](4.1.jpg)
 
 3. Readme.md file with done execises.
+
+## Task 8:
+1. Create an ordered list with icons. In order to do it you should have:
+- an ordered list
+- with the pseudo elements studied replace `default` bullet with a content you choose (emoji, image, text, etc.)            example: https://unicode.org/emoji/charts/full-emoji-list.html
+
+2. Create a form with: name, email, url, password, gender. When the input is active the border color should be red and while entering text should be pink.                                                                                                    An input at your discretion should be disabled and the input background color should be gray.                                    If we choose the gender - the input should became yellow.
