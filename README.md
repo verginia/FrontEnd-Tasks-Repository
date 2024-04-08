@@ -47,3 +47,9 @@ one
 ![elements](4.1.jpg)
 
 3. Readme.md file with done execises.
+
+## Task 9:
+
+1. Add a file with a table. The table should contains min 5 colors with 3 possibile shades of them. Style each cell with a shade with different colors unit. The first one - with the color name, second one - hex and third one rgb/rgba.
+
+![table](9.1.png)
