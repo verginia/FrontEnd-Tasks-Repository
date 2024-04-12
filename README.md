@@ -47,3 +47,7 @@ one
 ![elements](4.1.jpg)
 
 3. Readme.md file with done execises.
+
+## Task 11:
+1. Add a new file. The file should contains 9 blocks. Each block should contains a quoate. Display in different ways each quote and style it. Examples:
+![quotes](11.0.png)
