@@ -47,3 +47,7 @@ one
 ![elements](4.1.jpg)
 
 3. Readme.md file with done execises.
+
+## Task 12:
+1. ![task1](12.1.png)
+2. ![task2](12.2.png)
