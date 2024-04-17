@@ -13,6 +13,10 @@ Repository for FrontEnd tasks
 6. [Task 6]
 7. [Task 7]
 8. [Task 8]
+9. [Task 9]
+10. [Task 10]
+11. [Task 11]
+
 
 
 
@@ -83,3 +87,8 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 9:
 1. Add a file with a table. The table should contains min 5 colors with 3 possibile shades of them. Style each cell with a shade with different colors unit. The first one - with the color name, second one - hex and third one rgb/rgba.
 ![table](9.1.png)
+
+## Task 11:
+1. Add a new file. The file should contains 9 blocks. Each block should contains a quoate. Display in different ways each quote and style it. Examples:
+![quotes](11.0.png)
+
