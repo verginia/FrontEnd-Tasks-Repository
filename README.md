@@ -19,8 +19,6 @@ Repository for FrontEnd tasks
 12. [Task 12]
 
 
-
-
 ## Task 1:
 1. Download VSCode                      see: https://code.visualstudio.com/Download
 2. Download Git                         see: https://git-scm.com/
@@ -53,7 +51,7 @@ one
 ![elements](4.1.jpg)
 
 3. Readme.md file with done execises.
-
+  
 ## Task 5: 
 1. Create a document.html file which should contains minimum all this elements:
 ![document](5.png)
@@ -72,6 +70,17 @@ one
 Put a second level heading above the description list with HTML Terms as text.
 
 ## Task 6:
+1. create a file table.html and set the title and a top level heading to Table I. Use what you've learned in this lesson to produce the following table(**) inside the new document:
+![table](6.1.png)
+
+2. Create a form with minimum fields those shown in the image.
+- 3 fields should be required
+- 1 field should be readonly with some default data
+- add password field with minimum 8 characters
+- all fields should have placeholder
+- add reset button
+- add file input which will accept only images
+![form](6.2.png)
                                         
 ## Task 7: 
 1. Create a new html file containing a table (at your discretion). Style the file with internal css style. You should use all type of selectors which you know.
@@ -96,4 +105,5 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
 
