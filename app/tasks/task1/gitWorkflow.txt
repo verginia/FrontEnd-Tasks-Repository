@@ -1,0 +1,17 @@
+step1 = "1. Perform git stash - to store the uncommitted changes";
+step2 = "2. Perform git checkout master - to move to the local master branch";
+step3 = "3. Perform git fetch command - to fetch the origin branches";
+step3 = "4. Perform git pull command - pull the changes from the remotes";
+step4 = "5. Perform git checkout -b new_branch_name command - to create and instantly move to a new branch, " +
+                "that is identical to local master branch.";
+step5 = "6. Add your changes that are related to the task";
+step6 = "7. Review your changes and check your code before committing them";
+step7 = "8. Execute git commit by using the Terminal.";
+step8 = "9. Once all the changes, are committed, execute a git push command.";
+step9 = "10. The committed changes are pushed to an origin branch with the same name, navigate to the GitHub branch";
+step10 = "11. Create a Pull Request from origin/new_branch_name into origin/master or main";
+step11 = "12. Add the Pull Request details - name, description and request review from your colleagues";
+step12 = "13. If you collect at least 2 approvals from your colleagues then merge the branch";
+step13 = "14. After that, the origin/master contains the latest changes and the origin/new_branch_name can be deleted";
+step14 = "15. Do not forget that locally you are still on the new_branch_name, it's good to move back to master";
+step15 = "16. However, the local master branch does not have the latest changes, therefore perform a git fetch and git pull";
