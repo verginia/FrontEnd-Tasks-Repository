@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Selector Examples</title>
+<style>
+  /* Universal Selector */
+  * {
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Element Selector */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  /* ID Selector */
+  #header {
+    background-color: #544d4d;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+
+  /* Class Selector */
+  .data-row {
+    background-color: greenyellow;
+  }
+
+  /* Descendant Selector */
+  table th {
+    background-color: blueviolet;
+    color: #fff;
+    padding: 10px;
+  }
+
+  /* Child Selector */
+  table td {
+    padding: 8px;
+    text-align: center;
+    border: 3px solid yellow;
+  }
+
+  /* Attribute Selector */
+  table tr[data-category="food"] {
+    background-color: #ec8181;
+  }
+
+  /* Adjacent Sibling Selector */
+  table th + th {
+    background-color: green;
+  }
+
+  /* General Sibling Selector */
+  table th ~ th {
+    font-style: italic;
+  }
+
+  /* Grouping Selector */
+  table th, table td {
+    font-weight: bold;
+  }
+
+  /* Pseudo-class Selector */
+  table tr:nth-child(odd) {
+    background-color: burlywood;
+  }
+
+  /* Pseudo-element Selector */
+  table td::first-letter {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: red;
+  }
+  h1{
+    text-align: center;
+    font-weight: normal;
+  }
+</style>
+</head>
+<body>
+    <h1>Table with Expenses</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th colspan="2" id="header">Monthly Expenses</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="data-row">
+      <td>Food</td>
+      <td>$300</td>
+    </tr>
+    <tr class="data-row" data-category="food">
+      <td>Vegetables</td>
+      <td>$100</td>
+    </tr>
+    <tr class="data-row">
+      <td>Transportation</td>
+      <td>$150</td>
+    </tr>
+    <tr class="data-row">
+      <td>Utilities</td>
+      <td>$100</td>
+    </tr>
+    <tr class="data-row">
+      <td>Entertainment</td>
+      <td>$200</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+</html>

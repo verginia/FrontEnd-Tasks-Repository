@@ -9,6 +9,9 @@ Repository for FrontEnd tasks
 2. [Task 2]
 3. [Task 3]
 4. [Task 4]
+5. [Task 5]
+6. [Task 6]
+7. [Task 7]
 
 
 
@@ -63,4 +66,8 @@ one
 Put a second level heading above the description list with HTML Terms as text.
 
 ## Task 6:
+                                        
+## Task 7: 
+1. Create a new html file containing a table (at your discretion). Style the file with internal css style. You should use all type of selectors which you know.
+2. Create a new html file containing a nested list. Create a new .css file calles listStyle.css. Add styles to the list and import it as external style css. example of styling: text-size, text-font, background-color, border, text-align, color…
 
