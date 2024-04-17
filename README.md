@@ -50,7 +50,7 @@ one
 3. Readme.md file with done execises.
 
 ## Task 5: 
-1. create a document.html file which should contains minimum all this elements:
+1. Create a document.html file which should contains minimum all this elements:
 ![document](5.png)
 
 2. create a file ordered.html. Set the title and a top level heading to Ordered List. Create an ordered list with 7 or more related items of your choosing. Put a second level heading above the list with text describing what types of items the list contains.
@@ -80,3 +80,6 @@ Put a second level heading above the description list with HTML Terms as text.
 
 2. Create a form with: name, email, url, password, gender. When the input is active the border color should be red and while entering text should be pink. 
 
+## Task 9:
+1. Add a file with a table. The table should contains min 5 colors with 3 possibile shades of them. Style each cell with a shade with different colors unit. The first one - with the color name, second one - hex and third one rgb/rgba.
+![table](9.1.png)
