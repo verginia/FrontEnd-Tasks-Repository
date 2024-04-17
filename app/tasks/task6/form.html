@@ -16,20 +16,20 @@
         <fieldset>
             <legend>Personal Info</legend>
             <div>
-                <label for="name"> First Name:</label>
-                <input type="text" id="fname" name="name" placeholder="Enter your  first name" required>
+                <label for="fname"> First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your  first name" required>
             </div>
             <div>
-                <label for="name"> Last Name:</label>
-                <input type="text" id="lname" name="name" placeholder="Enter your last name" required>
+                <label for="lname"> Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
             </div>
             <div>
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
             </div>
             <div>
-                <label for="email">Password:</label>
-                <input type="password" id="Password" name="password" placeholder="Enter your password (min. 8 characters)" minlength="8" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password (min. 8 characters)" minlength="8" required>
             </div>
             <div>
                 <label for="phone">Phone:</label>
@@ -37,7 +37,7 @@
             </div>
             <div>
                 <label for="adress">Address:</label>
-                <input type="address" id="adress" name="adress" placeholder="Enter your adress" required>
+                <input type="text" id="adress" name="adress" placeholder="Enter your adress" required>
             </div>
             <div>
                 <label for="readonlyField">Graduate:</label>
@@ -83,17 +83,18 @@
 
         <fieldset>
             <legend>Skills</legend>
-            <label>Skills:</label><br>
+            <label for="skills">Skills:</label><br>
             <label><input type="checkbox" name="skills" value="HTML"> HTML</label><br>
             <label><input type="checkbox" name="skills" value="CSS"> CSS</label><br>
             <label><input type="checkbox" name="skills" value="JavaScript"> JavaScript</label><br>
-            <label><input type="checkbox" name="skills" value="JavaScript"> Python</label><br>
-            <label><input type="checkbox" name="skills" value="JavaScript"> UNIX</label><br>
-            <label><input type="checkbox" name="skills" value="JavaScript"> VIM</label><br>
+            <label><input type="checkbox" name="skills" value="Python"> Python</label><br>
+            <label><input type="checkbox" name="skills" value="UNIX"> UNIX</label><br>
+            <label><input type="checkbox" name="skills" value="VIM"> VIM</label><br>
         </fieldset>
 
         <fieldset>
             <legend>Describe any additional skills you have:</legend>
+            <label for="comments"></label>
             <textarea id="comments" name="comments" rows="4" placeholder="Enter any additional comments"></textarea>
         </fieldset>
         <br />
