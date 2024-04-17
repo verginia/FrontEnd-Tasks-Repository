@@ -12,6 +12,7 @@ Repository for FrontEnd tasks
 5. [Task 5]
 6. [Task 6]
 7. [Task 7]
+8. [Task 8]
 
 
 
@@ -70,4 +71,12 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 7: 
 1. Create a new html file containing a table (at your discretion). Style the file with internal css style. You should use all type of selectors which you know.
 2. Create a new html file containing a nested list. Create a new .css file calles listStyle.css. Add styles to the list and import it as external style css. example of styling: text-size, text-font, background-color, border, text-align, color…
+
+## Task 8:
+1. Create an ordered list with icons. In order to do it you should have:
+- an ordered list
+- with the pseudo elements studied replace `default` bullet with a content you choose (emoji, image, text, etc.)       
+  example: https://unicode.org/emoji/charts/full-emoji-list.html
+
+2. Create a form with: name, email, url, password, gender. When the input is active the border color should be red and while entering text should be pink. 
 
