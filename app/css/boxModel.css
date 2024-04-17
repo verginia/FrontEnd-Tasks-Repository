@@ -25,7 +25,7 @@ padding: 30px;
 margin-top: 50px;
 width: 500px;
 height: 100px;
-box-sizing: padding-box;
+box-sizing: content-box;
 
 }
 .box4 {
