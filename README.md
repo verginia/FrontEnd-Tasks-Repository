@@ -16,6 +16,7 @@ Repository for FrontEnd tasks
 9. [Task 9]
 10. [Task 10]
 11. [Task 11]
+12. [Task 12]
 
 
 
@@ -91,4 +92,8 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 11:
 1. Add a new file. The file should contains 9 blocks. Each block should contains a quoate. Display in different ways each quote and style it. Examples:
 ![quotes](11.0.png)
+            
+## Task 12:
+1. ![task1](12.1.png)
+2. ![task2](12.2.png)
 
