@@ -11,7 +11,12 @@ Repository for FrontEnd tasks
 4. [Task 4]
 5. [Task 5]
 6. [Task 6]
-
+7. [Task 7]
+8. [Task 8]
+9. [Task 9]
+10. [Task 10]
+11. [Task 11]
+12. [Task 12]
 
 
 ## Task 1:
@@ -48,7 +53,7 @@ one
 3. Readme.md file with done execises.
   
 ## Task 5: 
-1. create a document.html file which should contains minimum all this elements:
+1. Create a document.html file which should contains minimum all this elements:
 ![document](5.png)
 
 2. create a file ordered.html. Set the title and a top level heading to Ordered List. Create an ordered list with 7 or more related items of your choosing. Put a second level heading above the list with text describing what types of items the list contains.
@@ -76,5 +81,29 @@ Put a second level heading above the description list with HTML Terms as text.
 - add reset button
 - add file input which will accept only images
 ![form](6.2.png)
+                                        
+## Task 7: 
+1. Create a new html file containing a table (at your discretion). Style the file with internal css style. You should use all type of selectors which you know.
+2. Create a new html file containing a nested list. Create a new .css file calles listStyle.css. Add styles to the list and import it as external style css. example of styling: text-size, text-font, background-color, border, text-align, color…
+
+## Task 8:
+1. Create an ordered list with icons. In order to do it you should have:
+- an ordered list
+- with the pseudo elements studied replace `default` bullet with a content you choose (emoji, image, text, etc.)       
+  example: https://unicode.org/emoji/charts/full-emoji-list.html
+
+2. Create a form with: name, email, url, password, gender. When the input is active the border color should be red and while entering text should be pink. 
+
+## Task 9:
+1. Add a file with a table. The table should contains min 5 colors with 3 possibile shades of them. Style each cell with a shade with different colors unit. The first one - with the color name, second one - hex and third one rgb/rgba.
+![table](9.1.png)
+
+## Task 11:
+1. Add a new file. The file should contains 9 blocks. Each block should contains a quoate. Display in different ways each quote and style it. Examples:
+![quotes](11.0.png)
+            
+## Task 12:
+1. ![task1](12.1.png)
+2. ![task2](12.2.png)
 
 
