@@ -106,4 +106,6 @@ Put a second level heading above the description list with HTML Terms as text.
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
 
-
+## Task 14:
+1. Let’s create a new responsive layout page with flexbox.
+![quotes](11.0.png)
