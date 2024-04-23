@@ -107,3 +107,7 @@ Put a second level heading above the description list with HTML Terms as text.
 2. ![task2](12.2.png)
 
 
+## Task 16:
+1. Create a simple calculator as on picture with HTML and CSS.
+2. Add effects on hover when passing over the numbers.
+![calculator](16.0.png)
