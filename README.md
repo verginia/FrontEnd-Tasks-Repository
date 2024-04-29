@@ -97,6 +97,20 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 9:
 1. Add a file with a table. The table should contains min 5 colors with 3 possibile shades of them. Style each cell with a shade with different colors unit. The first one - with the color name, second one - hex and third one rgb/rgba.
 ![table](9.1.png)
+  
+## Task 10:
+1. Add a file called boxModel.html. The body should contains a box with:
+  ● A 5px, black, dotted border. 
+  ● A top margin of 20px. 
+  ● A right margin of 1em. 
+  ● A bottom margin of 40px. 
+  ● A left margin of 2em. 
+  ● Padding on all sides of 1em. 
+  The body should contains another box styled as you want. Apply the box-sizing properties to both boxes and see the difference on them.
+
+2. Add a new file where you will add at least 3 images. The content should be displayed as you want but you should use the model box components. 
+  Add a border and try to use as many properties as you want. Add some background color around images and try to use as many background
+  properties as you want.
 
 ## Task 11:
 1. Add a new file. The file should contains 9 blocks. Each block should contains a quoate. Display in different ways each quote and style it. Examples:
@@ -105,5 +119,3 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
-
-
