@@ -1,0 +1,41 @@
+.form-group {
+    margin-bottom: 20px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid bisque;
+    border-radius: 5px;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="url"]:hover,
+input[type="password"]:hover,
+select:hover {
+    border-color: red;
+}
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus {
+    border-color: green;
+    background-color: pink;
+}
+input[type="text"][disabled],
+input[type="email"][disabled],
+input[type="url"][disabled],
+input[type="password"][disabled],
+select[disabled] {
+    background-color: gray;
+}
+select.yellow-border:focus {
+    background-color: yellow;
+}
