@@ -119,3 +119,7 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 17:
+Let’s create our first js program. Let’s write ‘Hello, World!’ using:
+![jsMethods](app/images/jsMethods.png)
