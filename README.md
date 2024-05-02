@@ -119,3 +119,25 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 18: 
+1. Temperature converter:
+● Store a celsius temperature into a variable.
+● Convert it to fahrenheit and output "nn°C is nn°F".
+● Now store a fahrenheit temperature into a variable.
+● Convert it to celsius and output "nn°F is nn°C."
+
+![TConverter](app/images/task18/tConverter.png)
+
+2.
+![variablesForMars](app/images/task18/variablesForMars.png)
+1. Declare and assign a variable for each item in the list.
+2. For each variable you declared use the typeof operator to print its type to the console, one item per line.
+3. We need to determine how many days it will take to reach Mars.
+a) Create and assign a miles to Mars variable. You can get the miles to Mars by multiplying the
+distance to Mars in kilometers by the miles per kilometer.
+b) Next, we need a variable to hold the hours it would take to get to Mars. To get the hours, you
+need to divide the miles to Mars by the shuttle's speed.
+c) Finally, declare a variable and assign it the value of days to Mars. In order to get the days it will
+take to reach Mars, you need to divide the hours it will take to reach Mars by 24.
+4. Using variables from above, print to the screen a sentence that says "_____ will take ___ days to reach Mars." Fill in the blanks with the shuttle name and the calculated time.
