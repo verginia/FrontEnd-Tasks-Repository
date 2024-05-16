@@ -119,3 +119,18 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 20:
+1. Write a program to find the types of an angle. Types of angles:
+• Acute angle: An angle between 0 and 90 degrees.
+• Right angle: An 90 degree angle.
+• Obtuse angle: An angle between 90 and 180 degrees.
+• Straight angle: A 180 degree angle.
+
+![angles](app/images/task20/angles.png)
+
+2. Write a JavaScript function which accepts an argument and returns the type.
+![primitive Type](app/images/task20/primitiveType.png)
+
+3. Write a function which takes an argument. The argument should be a country abbreviation. Based on the abbreviation return the phone prefix! Should be minimum 10 countries.
+https://www.nationsonline.org/oneworld/country_code_list.htm
