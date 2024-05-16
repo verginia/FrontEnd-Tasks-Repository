@@ -16,3 +16,14 @@ function calculateDifference() {
     // Display the result
     result.textContent = "The difference is: " + difference;
 }
+
+/* another suggestion:
+function difference(number){
+    return number <= 13 ? 13 - number : (number - 13) * 2;
+}
+or
+function getDifference(n){
+    return (n > 13) ? (n - 13) * 2 : (13 - n);
+}
+
+*/

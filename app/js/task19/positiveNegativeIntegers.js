@@ -14,3 +14,10 @@ function checkOppositeSigns() {
       result.textContent = "The integers do not have opposite signs.";
     }
   }
+
+  /* another suggestion:
+  function checkForNumbers(firstNumber, secondNumber){
+    return ((firstNumber < 0 && secondNumber > 0) || (firstNumber > 0 && secondNumber < 0)) ? true : false;
+  }
+
+  */
