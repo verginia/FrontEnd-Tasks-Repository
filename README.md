@@ -119,3 +119,7 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 21:
+1. Write a simple JavaScript program which will receive as first parameter an array and as second parameter a separator and will return a string.
+2. Write a JavaScript function that if will receive a number as argument will return the reverse of it. For example: 345 => 543 and if will receive as argument a string will return this string with letters ordered by alphabetical order. Ex: ‘anb’ => ‘abn’
