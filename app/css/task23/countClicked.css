@@ -1,0 +1,36 @@
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+#clickCount {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#letterDisplay {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#chosenLetter {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#hiddenMessage {
+    margin-top: 20px;
+    color: green;
+    font-size: 20px;
+}
