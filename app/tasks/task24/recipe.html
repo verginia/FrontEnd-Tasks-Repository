@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Recipe</title>
+    <link rel="stylesheet" href="../../css/task24/recipe.css">
+   
+</head>
+<body>
+    <h1>Favorite Recipe</h1>
+    <div id="recipeContainer">
+        <img id="recipeImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_TRTU4ITqnslf-UdGOirDzHeUM117FgDTew&usqp=CAU" alt="Recipe Image">
+        <p id="recipeTitle"></p>
+        <p id="recipeServings"></p>
+        <p id="recipeTime"></p>
+        <button onclick="showIngredients()">More Information</button>
+    </div>
+    <div id="ingredientsContainer">
+        <h2 id="ingredientsTitle" style="display: none;">Ingredients</h2>
+        <ul id="recipeIngredients" style="display: none;"></ul>
+    </div>
+
+    <script src="../../js/task24/recipe.js"></script>
+</body>
+</html>
