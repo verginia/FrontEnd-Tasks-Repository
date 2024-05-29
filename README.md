@@ -119,3 +119,10 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 23:
+1. Think of a way to introduce some events on your page on your own project.
+2. Add a span to an HTML page and style it to appear like a button. Add a listener for click events to the button so that, when the button is clicked, an image of your choosing is displayed below the button. The image may be present in the mark-up before the button is clicked, but should be hidden from view. Add a second event handler to the image. When the image is clicked, hide the image again. Add a second button (also built from a span element) next to the first one. When this button is clicked, the event listener should completely remove the image from the page. Don’t forget to remove the event handler attached to the image.
+3. Add an event listener for click events on an element of your choice. The event listener should maintain a count of the number of times the element is clicked. Log the count to the console each time it increments. *Add an event listener for keyboard events to the html element of a web page. When a specific combination of keys are pressed (for example, a, b,
+c, d), display a specific message.
+4. Create a form with five input fields and a submit button. Without using the required attribute, catch form submissions and reject them if each field has not been completed.
