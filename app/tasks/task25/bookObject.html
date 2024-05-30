@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Reader</title>
+    <link rel="stylesheet" href="../../css/task25/bookObject.css">
+</head>
+<body>
+    <h1>Book Reader</h1>
+    <div id="bookInfoContainer">
+        <p id="bookTitle">Title: Harry Potter and the Sorcerer's Stone</p>
+        <p id="bookAuthor">Author: J.K. Rowling</p>
+        <p id="bookPages">Pages: 300</p>
+        <p id="bookCurrentPage">Current page: <input type="number" id="currentPageInput" value="0"></p>
+        <p id="bookPercentage">Percentage read: 0%</p>
+        <p id="bookStatus"></p>
+        <input type="number" id="pagesToRead" placeholder="Enter pages to read">
+        <button onclick="readBook()">Read</button>
+        <button onclick="checkPage()">Check Page</button>
+        <button onclick="checkPercentage()">Check Percentage</button>
+        <button onclick="checkIsRead()">Check if Read</button>
+    </div>
+    <script src="../../js/task25/bookObject.js"></script>
+</body>
+</html>
