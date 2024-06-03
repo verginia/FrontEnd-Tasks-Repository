@@ -119,3 +119,11 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 26:
+1. Write a JavaScript function to get the month name from a particular date.
+2. Write a JavaScript function to check whether two dates fall on the same week day (you can check their getFullYear, getMonth and getDate values).
+3. Write a JavaScript function to get difference between two dates in days.
+4. In your own project integrate an element displaying current date on your web site. This element should be displayed in real time.
+5. Write a JavaScript function to get the minimum date from an array of dates.
+6. Write a JavaScript program to get the width and height of the window(any time the window is resized).
