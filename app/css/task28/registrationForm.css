@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+h1 {
+    text-align: center;
+}
+form div {
+    margin-bottom: 15px;
+}
+label {
+    display: inline-block;
+    width: 100px;
+}
+input, textarea {
+    width: calc(100% - 110px);
+}
+select{
+    width: calc(100% - 100px);
+}
+.div1, .div2 {
+   max-width: 200px;
+}
+.error {
+    color: red;
+    display: none;
+}
+.optional {
+    color: gray;
+}
+.success {
+    color: green;
+    display: none;
+}

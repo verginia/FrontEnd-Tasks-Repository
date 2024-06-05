@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../../css/task28/optionalTask.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registrationForm">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName">
+                <span id="firstNameError" class="error">Required and alphabets only.</span>
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName">
+                <span id="lastNameError" class="error">Required and alphabets only.</span>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <span id="emailError" class="error">Required and must be a valid email.</span>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <span id="passwordError" class="error">Required and must be of length 7 to 12.</span>
+            </div>
+            <div class="div1">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" max="">
+                <span id="dobError" class="error">Required and must be a valid past date.</span>
+            </div>
+            <div>
+                <label for="address">Address:</label>
+                <textarea id="address" name="address"></textarea>
+                <span id="addressError" class="optional">Optional.</span>
+            </div>
+            <div>
+                <button type="button" onclick="validateForm()">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="../../js/task28/optionalTask.js"></script>
+</body>
+</html>
