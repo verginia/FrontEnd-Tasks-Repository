@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safe Divide Function</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+            padding: 5px;
+            font-size: 16px;
+        }
+        #result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Safe Divide Function</h1>
+    <div>
+        <label for="num1">Number 1:</label>
+        <input type="text" id="num1">
+    </div>
+    <div>
+        <label for="num2">Number 2:</label>
+        <input type="text" id="num2">
+    </div>
+    <button onclick="performDivision()">Divide</button>
+    <div id="result"></div>
+
+    <script>
+        function safeDivide(num1, num2) {
+            if (isNaN(num1) || isNaN(num2)) {
+                return "Error: Both inputs must be numbers.";
+            }
+            if (num2 == 0) {
+                return "Error: Division by zero is not allowed.";
+            }
+            return num1 / num2;
+        }
+
+        function performDivision() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+            const result = safeDivide(num1, num2);
+            document.getElementById("result").textContent = `Result: ${result}`;
+        }
+    </script>
+</body>
+</html>

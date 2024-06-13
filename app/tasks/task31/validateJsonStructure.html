@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate JSON Structure</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+            padding: 5px;
+            font-size: 16px;
+        }
+        textarea {
+            width: 100%;
+            height: 100px;
+            margin: 5px 0;
+            padding: 5px;
+            font-size: 16px;
+        }
+        #result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Validate JSON Structure</h1>
+    <div>
+        <label for="jsonInput">JSON String:</label>
+        <textarea id="jsonInput"></textarea>
+    </div>
+    <div>
+        <label for="propertiesInput">Required Properties (comma separated):</label>
+        <input type="text" id="propertiesInput">
+    </div>
+    <button onclick="validateJson()">Validate JSON</button>
+    <div id="result"></div>
+
+    <script>
+        function validateJsonStructure(jsonString, requiredProperties) {
+            let parsedJson;
+            try {
+                parsedJson = JSON.parse(jsonString);
+            } catch (error) {
+                return `Error: Invalid JSON string. ${error.message}`;
+            }
+
+            for (const property of requiredProperties) {
+                if (!parsedJson.hasOwnProperty(property)) {
+                    return `Error: Missing required property '${property}'.`;
+                }
+            }
+
+            return "Success: All required properties are present.";
+        }
+
+        function validateJson() {
+            const jsonString = document.getElementById("jsonInput").value;
+            const propertiesInput = document.getElementById("propertiesInput").value;
+            const requiredProperties = propertiesInput.split(',').map(item => item.trim());
+            const result = validateJsonStructure(jsonString, requiredProperties);
+            document.getElementById("result").textContent = result;
+        }
+    </script>
+</body>
+</html>
