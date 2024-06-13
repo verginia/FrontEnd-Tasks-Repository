@@ -119,3 +119,25 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+
+## Task 30:
+
+1. Create a new Map object called "employees" and add the following key-value pairs:
+● "John Doe" => "Manager"
+● "Jane Smith" => "Developer"
+● "Bob Johnson" => "Developer"
+Create a new Set object called "skills" and add the following items:
+● "JavaScript"
+● "HTML"
+● "CSS"
+● "JavaScript" (add it again to demonstrate the uniqueness of set)
+Use the size property to log the number of key-value pairs in the "employees" Map object to the console.
+Use the get() method to log the value of the "John Doe" key in the "employees" Map object to the console.
+Use the has() method to check if the "employees" Map object has a key "Bob Johnson" and log the result to the console.
+Use the delete() method to remove the key-value pair for "Jane Smith" from the "employees" Map object.
+Use the clear() method to remove all key-value pairs from the "employees" Map object.
+Use the size property to log the number of items in the "skills" Set object to the console.
+Use the has() method to check if the "skills" Set object has the value "JavaScript" and log the result to the console.
+Use the delete() method to remove the value "CSS" from the "skills" Set object.
+Use the forEach() method to log each item in the "skills" Set object to the console.

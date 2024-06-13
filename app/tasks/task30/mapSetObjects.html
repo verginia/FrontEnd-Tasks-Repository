@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map and Set Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>Map and Set Example</h1>
+    <pre id="output"></pre>
+
+    <script>
+        // Create a new Map object called "employees"
+        const employees = new Map();
+        employees.set("John Doe", "Manager");
+        employees.set("Jane Smith", "Developer");
+        employees.set("Bob Johnson", "Developer");
+
+        // Create a new Set object called "skills"
+        const skills = new Set();
+        skills.add("JavaScript");
+        skills.add("HTML");
+        skills.add("CSS");
+        skills.add("JavaScript"); // Attempt to add "JavaScript" again to demonstrate uniqueness
+
+        // Get the output element
+        const output = document.getElementById("output");
+
+        // Log the number of key-value pairs in the "employees" Map object
+        output.textContent += `Number of employees: ${employees.size}\n`;
+
+        // Log the value of the "John Doe" key in the "employees" Map object
+        output.textContent += `John Doe's position: ${employees.get("John Doe")}\n`;
+
+        // Check if the "employees" Map object has a key "Bob Johnson"
+        output.textContent += `Does the employees Map have Bob Johnson? ${employees.has("Bob Johnson")}\n`;
+
+        // Remove the key-value pair for "Jane Smith" from the "employees" Map object
+        employees.delete("Jane Smith");
+        output.textContent += `Number of employees after deleting Jane Smith: ${employees.size}\n`;
+
+        // Remove all key-value pairs from the "employees" Map object
+        employees.clear();
+        output.textContent += `Number of employees after clearing the Map: ${employees.size}\n`;
+
+        // Log the number of items in the "skills" Set object
+        output.textContent += `Number of skills: ${skills.size}\n`;
+
+        // Check if the "skills" Set object has the value "JavaScript"
+        output.textContent += `Does the skills Set have "JavaScript"? ${skills.has("JavaScript")}\n`;
+
+        // Remove the value "CSS" from the "skills" Set object
+        skills.delete("CSS");
+        output.textContent += `Number of skills after deleting "CSS": ${skills.size}\n`;
+
+        // Log each item in the "skills" Set object
+        output.textContent += `Skills:\n`;
+        skills.forEach(skill => {
+            output.textContent += `${skill}\n`;
+        });
+    </script>
+</body>
+</html>
