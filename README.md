@@ -119,3 +119,9 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 31:
+
+1. Write a function safeDivide that takes two numbers as input and returns their division. If division by zero occurs, return an error message instead of throwing an error.
+2. Write a function safeArrayAccess that takes an array and an index as input and returns the element at the given index. If the index is out of bounds, return an error message.
+3. Write a function validateJsonStructure that takes a JSON string and an array of required properties as input, parses the JSON string, and checks if all required properties exist. Handle any errors during parsing and return appropriate error messages or a success message.
