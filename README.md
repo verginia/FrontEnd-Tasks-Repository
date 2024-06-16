@@ -119,3 +119,7 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 32:
+
+1. Create a function that performs a simple arithmetic operation and returns a Promise with the result.
