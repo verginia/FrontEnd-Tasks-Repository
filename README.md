@@ -119,3 +119,7 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 33:
+
+1. Add a new file where you will cover the calculator using html, css and js.
