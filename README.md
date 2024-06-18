@@ -17,6 +17,13 @@ Repository for FrontEnd tasks
 10. [Task 10]
 11. [Task 11]
 12. [Task 12]
+13. [Task 13]
+14. [Task 14]
+15. [Task 15]
+16. [Task 16]
+17. [Task 17]
+18. [Task 18]
+19. [Task 19]
 
 
 ## Task 1:
@@ -46,20 +53,15 @@ Second part:
 - add all headings ordered from the last important to the most important
 one
 - the document has to contains 5 comments.
-
 2. To create an .html file containing following tags:
 ![elements](4.1.jpg)
-
 3. Readme.md file with done execises.
   
 ## Task 5: 
 1. Create a document.html file which should contains minimum all this elements:
 ![document](5.png)
-
 2. create a file ordered.html. Set the title and a top level heading to Ordered List. Create an ordered list with 7 or more related items of your choosing. Put a second level heading above the list with text describing what types of items the list contains.
-
 3. create a file unordered.html. Set the title and a top level heading to Unordered List. Create an unordered list with five or more related items of your choosing. Put a second level heading above the list with text describing what types of items the list contains.
-
 4. Create a file description.html. Set the title and a top level heading to Description List. Create a descriptions list with descriptions of the following HTML terms:
 1) HTML
 2) HTML element
@@ -119,6 +121,23 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 13:
+1. Add a sidebar and main content floated next to each other with a cleared footer. Make sure the header contains logo and navigation. Let’s use here floats, display property with list and table options and add some content inside boxes. (a list, a table, etc.)
+![display, float](13.0.png)
+
+## Task 14:
+1. Let’s create a new responsive layout page with flexbox.
+![quotes](11.0.png)
+
+## Task 15:
+1. Create 9 different files with grid containers with the following layouts:
+![grid](15.0.png)
+
+## Task 16:
+1. Create a simple calculator as on picture with HTML and CSS.
+2. Add effects on hover when passing over the numbers.
+![calculator](16.0.png)
 
 ## Task 17:
 Let’s create our first js program. Let’s write ‘Hello, World!’ using:
