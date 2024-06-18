@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+} 
+.box {
+    border: 5px dotted black;
+    margin: 20px 1em 40px 2em;
+    padding: 1em;
+    box-sizing: content-box;
+    
+}
+.box2 {
+background-color: rgb(63, 167, 167);
+border: 5px double rgb(68, 128, 0);
+padding: 5px;
+margin-top: 5px;
+width: 600px;
+height: 100px;
+box-sizing: border-box;
+
+}
+.box3 {
+background-color: rgb(238, 220, 233);
+border: 7px groove rgb(8, 8, 121);
+padding: 30px;
+margin-top: 50px;
+width: 500px;
+height: 100px;
+box-sizing: content-box;
+
+}
+.box4 {
+background-color: rgb(195, 236, 206);
+border: 5px solid rgb(64, 64, 158);
+padding: 40px;
+margin-top: 10px;
+width: 400px;
+height: 100px;
+box-sizing: content-box;
+}
