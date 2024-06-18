@@ -1,0 +1,32 @@
+.grid-container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 295px);
+    gap: 5px; /* adjust the gap between cells */
+}
+.div1 {
+    background-color:lightcoral;
+    grid-area: 1/1/2/4;
+    border: 5px solid rgb(126, 120, 4);
+}
+.div2 {
+    background-color:coral; 
+    grid-area: 2/2/3/4;
+    border: 5px solid rgb(126, 120, 4);
+}
+.div3{
+    background-color:rgba(11, 163, 239, 0.404);
+    grid-area: 2/1/4/2;
+    border: 5px solid rgb(126, 120, 4);
+}
+.div4 {
+    background-color:rgb(14, 132, 93);
+    grid-area: 3/2/4/3;
+    border: 5px solid rgb(126, 120, 4);
+}
+.div5 {
+    background-color:lightcoral;
+    grid-area: 3/3/4/4;
+    border: 5px solid rgb(126, 120, 4);
+}
