@@ -17,6 +17,8 @@ Repository for FrontEnd tasks
 10. [Task 10]
 11. [Task 11]
 12. [Task 12]
+13. [Task 13]
+14. [Task 14]
 
 
 ## Task 1:
@@ -53,11 +55,8 @@ one
 ## Task 5: 
 1. Create a document.html file which should contains minimum all this elements:
 ![document](5.png)
-
 2. create a file ordered.html. Set the title and a top level heading to Ordered List. Create an ordered list with 7 or more related items of your choosing. Put a second level heading above the list with text describing what types of items the list contains.
-
 3. create a file unordered.html. Set the title and a top level heading to Unordered List. Create an unordered list with five or more related items of your choosing. Put a second level heading above the list with text describing what types of items the list contains.
-
 4. Create a file description.html. Set the title and a top level heading to Description List. Create a descriptions list with descriptions of the following HTML terms:
 1) HTML
 2) HTML element
@@ -119,7 +118,9 @@ Put a second level heading above the description list with HTML Terms as text.
 2. ![task2](12.2.png)
 
 ## Task 13:
-
 1. Add a sidebar and main content floated next to each other with a cleared footer. Make sure the header contains logo and navigation. Let’s use here floats, display property with list and table options and add some content inside boxes. (a list, a table, etc.)
-
 ![display, float](13.0.png)
+
+## Task 14:
+1. Let’s create a new responsive layout page with flexbox.
+![quotes](11.0.png)
