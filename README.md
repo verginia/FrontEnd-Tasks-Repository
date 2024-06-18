@@ -21,6 +21,9 @@ Repository for FrontEnd tasks
 14. [Task 14]
 15. [Task 15]
 16. [Task 16]
+17. [Task 17]
+18. [Task 18]
+19. [Task 19]
 
 
 ## Task 1:
@@ -135,3 +138,7 @@ Put a second level heading above the description list with HTML Terms as text.
 1. Create a simple calculator as on picture with HTML and CSS.
 2. Add effects on hover when passing over the numbers.
 ![calculator](16.0.png)
+
+## Task 17:
+Let’s create our first js program. Let’s write ‘Hello, World!’ using:
+![jsMethods](app/images/jsMethods.png)
