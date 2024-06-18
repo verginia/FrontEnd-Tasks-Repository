@@ -46,10 +46,8 @@ Second part:
 - add all headings ordered from the last important to the most important
 one
 - the document has to contains 5 comments.
-
 2. To create an .html file containing following tags:
 ![elements](4.1.jpg)
-
 3. Readme.md file with done execises.
   
 ## Task 5: 
@@ -119,3 +117,9 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 13:
+
+1. Add a sidebar and main content floated next to each other with a cleared footer. Make sure the header contains logo and navigation. Let’s use here floats, display property with list and table options and add some content inside boxes. (a list, a table, etc.)
+
+![display, float](13.0.png)
