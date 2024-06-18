@@ -1,64 +1,66 @@
+/* Reset some default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color: beige;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
 }
 
 h1 {
     text-align: center;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 15px;
 }
 
-.block {
-    margin: 20px;
-    padding: 0 6px;
+.container {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 10px;
+    justify-content: space-between;
+    max-width: auto;
+    margin: 0 auto;
 }
 
-.quote-block {
-    margin: 10px;
-    padding: 5px;
-    width: 300px;
-    border: 1px solid black;
-    box-sizing: content-box;
-    box-shadow: 10px 10px 5px lightblue;
-    border-radius: 10px;
+.box {
+    background-color: #fff;
+    border: 2px solid brown;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex: 1;
+    min-width: 300px;
 }
 
-.quote-block:hover {
-    border: 5px dotted turquoise;
-    border-radius: 15px;
+.box:hover {
+    border: 5px solid green;
+    border-radius: 30px;
 }
-
-p::selection {
-    background-color: black;
-    color: white;
-}
-
-span::selection {
+.text::selection {
     background-color: yellowgreen;
     color: white;
 }
-#span-id{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoYjIuIOXwvoaCpma0TB-ACKTo9M3cWr4OLQ&s);
-    background-repeat: no-repeat;
-}
-#span-id1{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-eF2EPE0vA6B9cNIfTX_lnizV3OGwTdADaA&s);
-    background-repeat: no-repeat;
-    padding-bottom: 136px;
-    padding-top: 30px;
-    margin-bottom: -20px;
-    margin-top: 3px;
+
+@media (max-width: 768px) {
+    .box {
+        flex-basis: calc(50% - 20px);
+    }
 }
 
-.div1 {
-    text-align: justify;
-    letter-spacing: 3px;
-    color: blueviolet;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 5px;
+@media (max-width: 576px) {
+    .box {
+        flex-basis: calc(100% - 20px);
+    }
 }
-
+.div1{
+    text-align: center;
+}
 .div2 {
     text-align: justify;
     letter-spacing: 7px;
@@ -66,7 +68,6 @@ span::selection {
     text-shadow: 2px 2px 4px #000000;
     font-family:'Courier New', Courier, monospace;
 }
-
 .div3 {
     text-align: justify;
     letter-spacing: -1px;
@@ -74,16 +75,14 @@ span::selection {
     font-family:'Times New Roman', Times, serif;
     padding-top: 10px;
 }
-
 .div4 {
-    margin-top: 100px;
-    padding: 50px;
+    margin-top: 10px;
+    padding: 5px;
     line-height: 50px;
     color:coral;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .div5 {
     text-align: justify;
     word-spacing: 10px;
@@ -93,15 +92,13 @@ span::selection {
     margin-top: -5px;
     margin-bottom: -5px; 
 }
-
 .div6 {
     font-style: oblique;
-    font-size: 36px;
+    font-size: 16px;
     white-space: pre-line;
     color:black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
 .div7 {
     text-align: justify;
     letter-spacing: 16px;
@@ -110,52 +107,47 @@ span::selection {
     text-shadow: 1px 1px red;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .div8 {
     text-align: justify;
     letter-spacing: 5px;
     color:crimson;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-size: 66px; 
 }
-
 .div9 {
     display:block;
-    padding-top: 180px;
+    padding-top: 150px;
     text-align: justify;
     color:darkblue;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 .div10 {
     display:block;
-    padding-top: 70px;
+    padding-top: 50px;
     text-align: justify;
     color:darkcyan;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
-
 .div11 {
     text-align: justify;
     font-style: italic;
     color:darkgoldenrod;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
 .div12 {
     text-align: center;
     color:darkgreen;
     text-shadow: 2px 2px 4px #000000;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
-.div13 {
+.div13{
+    padding: 55px 15px 15px 15px;
     text-align: justify;
-    letter-spacing: 3px;
-    color:darkmagenta;
-    font-family:cursive;
+    letter-spacing: 7px;
+    color: rgb(226, 43, 43);
+    text-shadow: 2px 2px 4px #000000;
+    font-family:'Courier New', Courier, monospace;
 }
-
 .div14 {
     text-align: justify;
     letter-spacing: 3px;
@@ -163,7 +155,6 @@ span::selection {
     font-family:fantasy;
     text-decoration: line-through;
 }
-
 .div15 {
     text-align: right;
     letter-spacing: 3px;
@@ -171,7 +162,6 @@ span::selection {
     font-family:monospace;
     text-decoration: underline overline;
 }
-
 .div16 {
     text-align: justify;
     letter-spacing: 3px;
