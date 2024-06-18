@@ -19,6 +19,7 @@ Repository for FrontEnd tasks
 12. [Task 12]
 13. [Task 13]
 14. [Task 14]
+15. [Task 15]
 
 
 ## Task 1:
@@ -124,3 +125,7 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 14:
 1. Let’s create a new responsive layout page with flexbox.
 ![quotes](11.0.png)
+
+## Task 15:
+1. Create 9 different files with grid containers with the following layouts:
+![grid](15.0.png)
