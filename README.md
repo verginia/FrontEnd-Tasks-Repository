@@ -163,3 +163,11 @@ c) Finally, declare a variable and assign it the value of days to Mars. In order
 take to reach Mars, you need to divide the hours it will take to reach Mars by 24.
 4. Using variables from above, print to the screen a sentence that says "_____ will take ___ days to reach Mars." Fill in the blanks with the shuttle name and the calculated time.
 
+## Task 19:
+1. Give the difference between a given number.
+Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference ((n - 13) *2)
+2. Check two given integers, whether one is positive and another one is negative.
+Write a JavaScript program to check from two given integers, whether one is positive and another one is negative. (primim 2 parametri și verificam daca cel puțin unul din parametri este negativ).
+3. Calculate multiplication and division of two numbers.
+Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
+![task19](app/images/task19/task19.png)
