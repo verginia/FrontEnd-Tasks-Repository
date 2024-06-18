@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+} 
+div.gallery {
+    border: 1px solid #ccc;
+    background: azure;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTViT4nU--QeraLend9bwnOhEk9bmwb44uqAw&s);
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 20px 5px darkslategray;
+    border-radius: 15px;
+    
+  }
+  
+  div.gallery:hover {
+    border: 5px solid #c2ec2a;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.9%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.9%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  p{
+    padding: 20px;
+    box-sizing: content-box;
+    margin: 25px;
+    display: inline-block;
+  }
+  
+ 
+ 

@@ -17,6 +17,9 @@ Repository for FrontEnd tasks
 10. [Task 10]
 11. [Task 11]
 12. [Task 12]
+13. [Task 13]
+14. [Task 14]
+15. [Task 15]
 
 
 ## Task 1:
@@ -46,20 +49,15 @@ Second part:
 - add all headings ordered from the last important to the most important
 one
 - the document has to contains 5 comments.
-
 2. To create an .html file containing following tags:
 ![elements](4.1.jpg)
-
 3. Readme.md file with done execises.
   
 ## Task 5: 
 1. Create a document.html file which should contains minimum all this elements:
 ![document](5.png)
-
 2. create a file ordered.html. Set the title and a top level heading to Ordered List. Create an ordered list with 7 or more related items of your choosing. Put a second level heading above the list with text describing what types of items the list contains.
-
 3. create a file unordered.html. Set the title and a top level heading to Unordered List. Create an unordered list with five or more related items of your choosing. Put a second level heading above the list with text describing what types of items the list contains.
-
 4. Create a file description.html. Set the title and a top level heading to Description List. Create a descriptions list with descriptions of the following HTML terms:
 1) HTML
 2) HTML element
@@ -97,6 +95,20 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 9:
 1. Add a file with a table. The table should contains min 5 colors with 3 possibile shades of them. Style each cell with a shade with different colors unit. The first one - with the color name, second one - hex and third one rgb/rgba.
 ![table](9.1.png)
+  
+## Task 10:
+1. Add a file called boxModel.html. The body should contains a box with:
+  ● A 5px, black, dotted border. 
+  ● A top margin of 20px. 
+  ● A right margin of 1em. 
+  ● A bottom margin of 40px. 
+  ● A left margin of 2em. 
+  ● Padding on all sides of 1em. 
+  The body should contains another box styled as you want. Apply the box-sizing properties to both boxes and see the difference on them.
+
+2. Add a new file where you will add at least 3 images. The content should be displayed as you want but you should use the model box components. 
+  Add a border and try to use as many properties as you want. Add some background color around images and try to use as many background
+  properties as you want.
 
 ## Task 11:
 1. Add a new file. The file should contains 9 blocks. Each block should contains a quoate. Display in different ways each quote and style it. Examples:
@@ -105,6 +117,14 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 12:
 1. ![task1](12.1.png)
 2. ![task2](12.2.png)
+
+## Task 13:
+1. Add a sidebar and main content floated next to each other with a cleared footer. Make sure the header contains logo and navigation. Let’s use here floats, display property with list and table options and add some content inside boxes. (a list, a table, etc.)
+![display, float](13.0.png)
+
+## Task 14:
+1. Let’s create a new responsive layout page with flexbox.
+![quotes](11.0.png)
 
 ## Task 15:
 1. Create 9 different files with grid containers with the following layouts:
