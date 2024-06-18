@@ -20,6 +20,7 @@ Repository for FrontEnd tasks
 13. [Task 13]
 14. [Task 14]
 15. [Task 15]
+16. [Task 16]
 
 
 ## Task 1:
@@ -129,3 +130,8 @@ Put a second level heading above the description list with HTML Terms as text.
 ## Task 15:
 1. Create 9 different files with grid containers with the following layouts:
 ![grid](15.0.png)
+
+## Task 16:
+1. Create a simple calculator as on picture with HTML and CSS.
+2. Add effects on hover when passing over the numbers.
+![calculator](16.0.png)
