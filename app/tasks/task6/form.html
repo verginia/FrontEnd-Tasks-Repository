@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+</head>
+<!-- Shift + Alt + F for formatting the code -->
+
+<body>
+    <h1>First form</h1>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <div>
+                <label for="fname"> First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Enter your  first name" required>
+            </div>
+            <div>
+                <label for="lname"> Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Enter your last name" required>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password (min. 8 characters)" minlength="8" required>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            </div>
+            <div>
+                <label for="adress">Address:</label>
+                <input type="text" id="adress" name="adress" placeholder="Enter your adress" required>
+            </div>
+            <div>
+                <label for="readonlyField">Graduate:</label>
+                <input type="text" id="readonlyField" name="readonlyField" value="Graduated" readonly>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Course Info</legend>
+            <label>Course:</label>
+            <div>
+                <input type="radio" id="course1" name="course" value="Computer Science">
+                <label for="course1">Computer Science</label>
+            </div>
+            <div>
+                <input type="radio" id="course2" name="course" value="Web Design">
+                <label for="course2">Web Design</label>
+            </div>
+            <div>
+                <input type="radio" id="course3" name="course" value="Graphic Design">
+                <label for="course3">Graphic Design</label>
+            </div>
+            <div>
+                <input type="radio" id="course4" name="course" value="SQL">
+                <label for="course4">SQL</label>
+            </div>
+            <div>
+                <input type="radio" id="course5" name="course" value="Programming">
+                <label for="course5">Programming</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Career Goal</legend>
+            <label for="careerGoal">Select your career goal:</label>
+            <select id="careerGoal" name="careerGoal" required>
+                <option value="">Select</option>
+                <option value="Web Developer">FrontEnd Developer</option>
+                <option value="Software Engineer">BackEnd Developer</option>
+                <option value="Data Scientist">Data Scientist</option>
+                <option value="Software Engineer">Software Engineer</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills:</label><br>
+            <label><input type="checkbox" name="skills" value="HTML"> HTML</label><br>
+            <label><input type="checkbox" name="skills" value="CSS"> CSS</label><br>
+            <label><input type="checkbox" name="skills" value="JavaScript"> JavaScript</label><br>
+            <label><input type="checkbox" name="skills" value="Python"> Python</label><br>
+            <label><input type="checkbox" name="skills" value="UNIX"> UNIX</label><br>
+            <label><input type="checkbox" name="skills" value="VIM"> VIM</label><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Describe any additional skills you have:</legend>
+            <label for="comments"></label>
+            <textarea id="comments" name="comments" rows="4" placeholder="Enter any additional comments"></textarea>
+        </fieldset>
+        <br />
+        <label for="profilePic">Profile Picture:</label>
+        <input type="file" id="profilePic" name="profilePic" accept="image/*">
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+</body>
+
+</html>

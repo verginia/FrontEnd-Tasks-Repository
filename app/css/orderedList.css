@@ -1,0 +1,25 @@
+/* Styles for replacing default bullets with emojis */
+h1::before {
+    content: " \1FAF6";
+  }
+.icon-list {
+    list-style: none; /* Remove default bullets */
+    counter-reset: list-counter; /* Reset counter for custom numbering */
+}
+
+.icon-list li {
+    counter-increment: list-counter; /* Increment counter for each item */
+    margin-bottom: 0.5em;
+}
+
+.icon-list li::before {
+    content: counter(list-counter) " \1F449"; /* Use counter value with emoji */
+    margin-right: 0.5em; /* Add some space between icon and text */
+    font-size: 1.9em; /* Adjust font size as needed */
+}
+.icon-list li::after {
+    content: counter(list-counter) " \1FAE0"; /* Use counter value with emoji */
+    margin-right: 0.5em; /* Add some space between icon and text */
+    margin-left: 0.9em; /* Add some space between icon and text */
+    font-size: 1.9em; /* Adjust font size as needed */
+}
