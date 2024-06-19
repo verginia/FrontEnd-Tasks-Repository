@@ -171,3 +171,10 @@ Write a JavaScript program to check from two given integers, whether one is posi
 3. Calculate multiplication and division of two numbers.
 Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
 ![task19](app/images/task19/task19.png)
+
+
+## Task 34:
+
+1. Search for a key in an object (including nested objects) using recursion.
+![exampleObj](app/images/task34/exampleObj.png)
+2. Count how many times a specific value appears in an array using recursion.
