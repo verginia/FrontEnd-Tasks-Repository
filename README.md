@@ -24,6 +24,7 @@ Repository for FrontEnd tasks
 17. [Task 17]
 18. [Task 18]
 19. [Task 19]
+20. [Task 20]
 
 
 ## Task 1:
@@ -171,3 +172,18 @@ Write a JavaScript program to check from two given integers, whether one is posi
 3. Calculate multiplication and division of two numbers.
 Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
 ![task19](app/images/task19/task19.png)
+  
+## Task 20:
+1. Write a program to find the types of an angle. Types of angles:
+• Acute angle: An angle between 0 and 90 degrees.
+• Right angle: An 90 degree angle.
+• Obtuse angle: An angle between 90 and 180 degrees.
+• Straight angle: A 180 degree angle.
+
+![angles](app/images/task20/angles.png)
+
+2. Write a JavaScript function which accepts an argument and returns the type.
+![primitive Type](app/images/task20/primitiveType.png)
+
+3. Write a function which takes an argument. The argument should be a country abbreviation. Based on the abbreviation return the phone prefix! Should be minimum 10 countries.
+https://www.nationsonline.org/oneworld/country_code_list.htm
