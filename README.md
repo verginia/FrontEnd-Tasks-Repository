@@ -208,3 +208,11 @@ Task-21_JavaScript_Arrays
 2. Write a JavaScript function that if will receive a number as argument will return the reverse of it. For example: 345 => 543 and if will receive as argument a string will 
   return this string with letters ordered by alphabetical order. Ex: ‘anb’ => ‘abn’
 
+Task-22_JavaScript_Arrays_Continue
+## Task 22:
+
+1. Write a program which will receive as an argument an array of data containing also duplicated values and will return an array of uniques values. As result we should also show the most frequent item from initial array. (ex: [1, 4, 5, 1, 5, 1] => [1, 4, 5] ‘most frequent is 1’)
+2. Write a program which will receive as argument an array of numbers and will return the minimum and the maximum numbers from it.
+3. Write a program in which user will add value from input and they will create an array with entered values. On display click we should see every element position and value as in the image below: (you can enter any type of data, not just numbers)
+
+![addDisplay](app/images/task22/addDisplay.png)
