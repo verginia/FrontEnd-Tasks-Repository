@@ -313,7 +313,7 @@ Optional:
 1.Write a JavaScript form validation script to check whether the required field(s) in the HTML form contains only letters.
 2. Write a JavaScript program to set validation for a birth date field. The date should be maximum yesterday date. You can’t select a date starting from today date to the future. 
 
- Task-29_JavaScript_Classes
+Task-29_JavaScript_Classes
 ## Task 29:
 1. Create a class called "Car" that has the following properties:
 ● make (string)
@@ -372,7 +372,7 @@ Use the has() method to check if the "skills" Set object has the value "JavaScri
 Use the delete() method to remove the value "CSS" from the "skills" Set object.
 Use the forEach() method to log each item in the "skills" Set object to the console.
 
-  Task-31_JavaScript_JSON
+Task-31_JavaScript_JSON
 ## Task 31:
 
 1. Write a function safeDivide that takes two numbers as input and returns their division. If division by zero occurs, return an error message instead of throwing an error.
@@ -383,3 +383,8 @@ Task-32_JavaScript_Promises
 ## Task 32:
 
 1. Create a function that performs a simple arithmetic operation and returns a Promise with the result.
+
+Task-33_JavaScript_HTML_CSS_Calculator
+## Task 33:
+
+1. Add a new file where you will cover the calculator using html, css and js.
