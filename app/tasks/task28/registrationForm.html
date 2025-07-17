@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../../css/task28/registrationForm.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registrationForm">
+            <div>
+                <label for="userId">User id:</label>
+                <input type="text" id="userId" name="userId">
+                <span class="error" id="userIdError">Required and must be of length 5 to 12.</span>
+            </div>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <span class="error" id="passwordError">Required and must be of length 7 to 12.</span>
+            </div>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <span class="error" id="nameError">Required and alphabets only.</span>
+            </div>
+            <div>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" placeholder="Optional">
+            </div>
+            <div>
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <option value="">(Please select a country)</option>
+                    <option value="USA">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Moldova">Moldova</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Other">Other</option>
+                </select>
+                <span class="error" id="countryError">Required. Must select a country.</span>
+            </div>
+            <div>
+                <label for="zip">ZIP Code:</label>
+                <input type="text" id="zip" name="zip">
+                <span class="error" id="zipError">Required. Must be numeric only.</span>
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+                <span class="error" id="emailError">Required. Must be a valid email.</span>
+            </div>
+            <div class="div1">
+                <label>Sex:</label>
+                <input type="radio" id="male" name="sex" value="Male"><label for="male">Male</label>
+                <input type="radio" id="female" name="sex" value="Female"><label for="female">Female</label>
+                <span class="error" id="sexError">Required.</span>
+            </div>
+            <div class="div2">
+                <label>Language:</label>
+                <input type="checkbox" id="english" name="language" value="English"><label for="english">English</label>
+                <input type="checkbox" id="nonEnglish" name="language" value="Non English"><label for="nonEnglish">Non English</label>
+                <span class="error" id="languageError">Required.</span>
+            </div>
+            <div>
+                <label for="about">About:</label>
+                <textarea id="about" name="about" placeholder="Optional"></textarea>
+            </div>
+            <div>
+                <button type="button" onclick="validateForm()">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="../../js/task28/registrationForm.js"></script>
+</body>
+</html>
