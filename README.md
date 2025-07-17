@@ -379,3 +379,7 @@ Use the forEach() method to log each item in the "skills" Set object to the cons
 2. Write a function safeArrayAccess that takes an array and an index as input and returns the element at the given index. If the index is out of bounds, return an error message.
 3. Write a function validateJsonStructure that takes a JSON string and an array of required properties as input, parses the JSON string, and checks if all required properties exist. Handle any errors during parsing and return appropriate error messages or a success message.
 
+Task-32_JavaScript_Promises
+## Task 32:
+
+1. Create a function that performs a simple arithmetic operation and returns a Promise with the result.
