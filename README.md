@@ -25,6 +25,20 @@ Repository for FrontEnd tasks
 18. [Task 18]
 19. [Task 19]
 20. [Task 20]
+21. [Task 21]
+22. [Task 22]
+23. [Task 23]
+24. [Task 24]
+25. [Task 25]
+26. [Task 26]
+27. [Task 27]
+28. [Task 28]
+29. [Task 29]
+30. [Task 30]
+31. [Task 31]
+32. [Task 32]
+33. [Task 33]
+34. [Task 34]
 
 
 ## Task 1:
@@ -187,3 +201,10 @@ Write a JavaScript program to calculate multiplication and division of two numbe
 
 3. Write a function which takes an argument. The argument should be a country abbreviation. Based on the abbreviation return the phone prefix! Should be minimum 10 countries.
 https://www.nationsonline.org/oneworld/country_code_list.htm
+  
+Task-21_JavaScript_Arrays
+## Task 21:
+1. Write a simple JavaScript program which will receive as first parameter an array and as second parameter a separator and will return a string.
+2. Write a JavaScript function that if will receive a number as argument will return the reverse of it. For example: 345 => 543 and if will receive as argument a string will 
+  return this string with letters ordered by alphabetical order. Ex: ‘anb’ => ‘abn’
+
