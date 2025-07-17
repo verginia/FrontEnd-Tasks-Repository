@@ -24,6 +24,21 @@ Repository for FrontEnd tasks
 17. [Task 17]
 18. [Task 18]
 19. [Task 19]
+20. [Task 20]
+21. [Task 21]
+22. [Task 22]
+23. [Task 23]
+24. [Task 24]
+25. [Task 25]
+26. [Task 26]
+27. [Task 27]
+28. [Task 28]
+29. [Task 29]
+30. [Task 30]
+31. [Task 31]
+32. [Task 32]
+33. [Task 33]
+34. [Task 34]
 
 
 ## Task 1:
@@ -171,8 +186,210 @@ Write a JavaScript program to check from two given integers, whether one is posi
 3. Calculate multiplication and division of two numbers.
 Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
 ![task19](app/images/task19/task19.png)
+  
+## Task 20:
+1. Write a program to find the types of an angle. Types of angles:
+• Acute angle: An angle between 0 and 90 degrees.
+• Right angle: An 90 degree angle.
+• Obtuse angle: An angle between 90 and 180 degrees.
+• Straight angle: A 180 degree angle.
 
+![angles](app/images/task20/angles.png)
 
+2. Write a JavaScript function which accepts an argument and returns the type.
+![primitive Type](app/images/task20/primitiveType.png)
+
+3. Write a function which takes an argument. The argument should be a country abbreviation. Based on the abbreviation return the phone prefix! Should be minimum 10 countries.
+https://www.nationsonline.org/oneworld/country_code_list.htm
+  
+Task-21_JavaScript_Arrays
+## Task 21:
+1. Write a simple JavaScript program which will receive as first parameter an array and as second parameter a separator and will return a string.
+2. Write a JavaScript function that if will receive a number as argument will return the reverse of it. For example: 345 => 543 and if will receive as argument a string will 
+  return this string with letters ordered by alphabetical order. Ex: ‘anb’ => ‘abn’
+
+Task-22_JavaScript_Arrays_Continue
+## Task 22:
+
+1. Write a program which will receive as an argument an array of data containing also duplicated values and will return an array of uniques values. As result we should also show the most frequent item from initial array. (ex: [1, 4, 5, 1, 5, 1] => [1, 4, 5] ‘most frequent is 1’)
+2. Write a program which will receive as argument an array of numbers and will return the minimum and the maximum numbers from it.
+3. Write a program in which user will add value from input and they will create an array with entered values. On display click we should see every element position and value as in the image below: (you can enter any type of data, not just numbers)
+
+![addDisplay](app/images/task22/addDisplay.png)
+
+## Task 23:
+1. Think of a way to introduce some events on your page on your own project.
+2. Add a span to an HTML page and style it to appear like a button. Add a listener for click events to the button so that, when the button is clicked, an image of your choosing is displayed below the button. The image may be present in the mark-up before the button is clicked, but should be hidden from view. Add a second event handler to the image. When the image is clicked, hide the image again. Add a second button (also built from a span element) next to the first one. When this button is clicked, the event listener should completely remove the image from the page. Don’t forget to remove the event handler attached to the image.
+3. Add an event listener for click events on an element of your choice. The event listener should maintain a count of the number of times the element is clicked. Log the count to the console each time it increments. *Add an event listener for keyboard events to the html element of a web page. When a specific combination of keys are pressed (for example, a, b,
+c, d), display a specific message.
+4. Create a form with five input fields and a submit button. Without using the required attribute, catch form submissions and reject them if each field has not been completed.
+
+Task-24_JavaScript_Objects
+## Task 24:
+1. Create a simple "Car" object that has the following properties:
+● make (e.g., "Toyota")
+● model (e.g., "Camry")
+● year (e.g., 2020)
+● color (e.g., "red")
+And the following methods:
+● start: This method should simply console log "The car is starting" when called.
+● drive: This method should console log "The car is driving" when called.
+● stop: This method should console log "The car is stopped" when called.
+● honk: This method should console log "Honk Honk!" when called
+You can add more details to the object, like adding fuel consumption and speed or make the car object to be controlled by a driver object. You can also create multiple car object and see the result.
+
+2.  Create an object to hold information on your favorite recipe. It should have properties for title (a string), servings (a number), and ingredients (an array of strings). On separate lines (one statement for each), show the recipe information so it looks like:
+![ingredients](app/images/task24/ingredients.png)
+
+3. Create an array of objects, where each object describes a book and has properties for the title (a string), author (a string), and alreadyRead (a boolean indicating if you read it yet). Iterate through the array of books. For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien". Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
+
+Task-25_JavaScript_Objects_Methods
+## Task 25:
+
+1. Create a "Book" object that has the following properties:
+● title (e.g., "Harry Potter and the Sorcerer's Stone")
+● author (e.g., "J.K. Rowling")
+● pages (e.g., 300)
+● currentPage (e.g., 1)
+And the following methods:
+● read: This method should take in a number as an argument, and it should increment
+the currentPage property by that number. It should also console log the message
+"Reading [x] pages" where x is the number of pages read.
+● checkPage: This method should console log the current page number
+● checkPercentage: This method should console log the percentage of pages read.
+● isRead: a method that return true or false if the book is read or not.
+
+2. Create an object called "rectangle" that has the following properties:
+● width
+● height
+And the following getters and setters:
+● perimeter: This getter should return the perimeter of the rectangle (width +
+height) * 2
+● area: This getter should return the area of the rectangle (width * height)
+● width: This setter should set the width of the rectangle and should not allow
+negative values.
+● height: This setter should set the height of the rectangle and should not allow
+negative values.
+
+3.
+![programming](app/images/task25/programming.png)
+![tasks](app/images/task25/tasks.png)
+  
+  
+Task-26_JavaScript_Objects_Methods_Continuation
+## Task 26:
+1. Write a JavaScript function to get the month name from a particular date.
+2. Write a JavaScript function to check whether two dates fall on the same week day (you can check their getFullYear, getMonth and getDate values).
+3. Write a JavaScript function to get difference between two dates in days.
+4. In your own project integrate an element displaying current date on your web site. This element should be displayed in real time.
+5. Write a JavaScript function to get the minimum date from an array of dates.
+6. Write a JavaScript program to get the width and height of the window(any time the window is resized).
+
+Task-27_JavaScript_String_JS_Object
+## Task 27:
+1. Write a JavaScript program to get the width and height of the window (any time the window is resized).
+2. Write a function that capitalizes the first letter of each word in a given string.
+3. Write a function that sorts an array of objects by a given property.
+5. You are given an array of student objects, where each student object contains the following properties:
+● name: The name of the student (string)
+● scores: An array of scores the student has achieved (array of numbers)
+Your task is to perform the following transformations:
+● Calculate the average score for each student and add it as a new property called averageScore.
+● Filter out students whose average score is less than a given threshold.
+● Sort the remaining students by their average score in descending order.
+
+Task-28_JavaScript_Regular_Expressions
+## Task 28:
+1. Write a function to extract numbers from a string.
+2. Write a function findCapitalizedWords(str) that returns an array of words that start with a capital letter.
+3. Write a function to validate date format according to some special format as for example: ‘YYYY-MM-DD’
+4. Write a function findDuplicateWords(str) that returns an array of duplicate words in the string.
+5. Write a function to extract the domain from an email.
+6. Write validation for an user form data. The output should take into consideration following validation. Add css classes (red,
+green) to show errors validation.
+![registrationForm](app/images/task28/registrationForm.png)
+
+Optional:
+1.Write a JavaScript form validation script to check whether the required field(s) in the HTML form contains only letters.
+2. Write a JavaScript program to set validation for a birth date field. The date should be maximum yesterday date. You can’t select a date starting from today date to the future. 
+
+Task-29_JavaScript_Classes
+## Task 29:
+1. Create a class called "Car" that has the following properties:
+● make (string)
+● model (string)
+● year (number)
+● speed (number)
+ The class should have the following methods:
+● accelerate: increases the speed of the car by 10
+● brake: decreases the speed of the car by 7
+● currentSpeed: returns the current speed of the car
+Create an instance of the class and test the methods by calling them and logging the results to the console.
+
+2. Create a class called "Person" that has the following properties:
+● firstName (string)
+● lastName (string)
+● age (number)
+● email (string)
+The class should have the following methods:
+● introduce: returns a string "My name is {firstName} {lastName} and I am {age} years old"
+● setEmail: sets the email property of the person with the passed value
+● getEmail: returns the email property of the person
+Create several instances of the class and test the methods by calling them and logging the results to the console.
+
+3. Create a class called "BankAccount" that has the following properties:
+● accountNumber (string) - private
+● balance (number) - private
+● accountType (string) - public
+The class should have the following methods:
+● deposit: accepts a number as an argument and increases the balance property by that amount
+● withdraw: accepts a number as an argument and decreases the balance property by that amount
+● checkBalance: returns the current balance
+● setAccountNumber: sets the account number, should only be available to class methods
+● getAccountNumber: returns the account number, should only be available to class methods
+Create an instance of the class and test the methods by calling them and logging the results to the console.
+
+Task-30_JavaScript_Map_Set_Objects
+
+## Task 30:
+
+1. Create a new Map object called "employees" and add the following key-value pairs:
+● "John Doe" => "Manager"
+● "Jane Smith" => "Developer"
+● "Bob Johnson" => "Developer"
+Create a new Set object called "skills" and add the following items:
+● "JavaScript"
+● "HTML"
+● "CSS"
+● "JavaScript" (add it again to demonstrate the uniqueness of set)
+Use the size property to log the number of key-value pairs in the "employees" Map object to the console.
+Use the get() method to log the value of the "John Doe" key in the "employees" Map object to the console.
+Use the has() method to check if the "employees" Map object has a key "Bob Johnson" and log the result to the console.
+Use the delete() method to remove the key-value pair for "Jane Smith" from the "employees" Map object.
+Use the clear() method to remove all key-value pairs from the "employees" Map object.
+Use the size property to log the number of items in the "skills" Set object to the console.
+Use the has() method to check if the "skills" Set object has the value "JavaScript" and log the result to the console.
+Use the delete() method to remove the value "CSS" from the "skills" Set object.
+Use the forEach() method to log each item in the "skills" Set object to the console.
+
+Task-31_JavaScript_JSON
+## Task 31:
+
+1. Write a function safeDivide that takes two numbers as input and returns their division. If division by zero occurs, return an error message instead of throwing an error.
+2. Write a function safeArrayAccess that takes an array and an index as input and returns the element at the given index. If the index is out of bounds, return an error message.
+3. Write a function validateJsonStructure that takes a JSON string and an array of required properties as input, parses the JSON string, and checks if all required properties exist. Handle any errors during parsing and return appropriate error messages or a success message.
+
+Task-32_JavaScript_Promises
+## Task 32:
+
+1. Create a function that performs a simple arithmetic operation and returns a Promise with the result.
+
+Task-33_JavaScript_HTML_CSS_Calculator
+## Task 33:
+
+1. Add a new file where you will cover the calculator using html, css and js.
+
+Task-34_JavaScript_Recursion
 ## Task 34:
 
 1. Search for a key in an object (including nested objects) using recursion.
