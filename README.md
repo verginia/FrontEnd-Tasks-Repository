@@ -388,3 +388,10 @@ Task-33_JavaScript_HTML_CSS_Calculator
 ## Task 33:
 
 1. Add a new file where you will cover the calculator using html, css and js.
+
+Task-34_JavaScript_Recursion
+## Task 34:
+
+1. Search for a key in an object (including nested objects) using recursion.
+![exampleObj](app/images/task34/exampleObj.png)
+2. Count how many times a specific value appears in an array using recursion.
