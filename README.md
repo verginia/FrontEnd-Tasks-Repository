@@ -371,3 +371,11 @@ Use the size property to log the number of items in the "skills" Set object to t
 Use the has() method to check if the "skills" Set object has the value "JavaScript" and log the result to the console.
 Use the delete() method to remove the value "CSS" from the "skills" Set object.
 Use the forEach() method to log each item in the "skills" Set object to the console.
+
+  Task-31_JavaScript_JSON
+## Task 31:
+
+1. Write a function safeDivide that takes two numbers as input and returns their division. If division by zero occurs, return an error message instead of throwing an error.
+2. Write a function safeArrayAccess that takes an array and an index as input and returns the element at the given index. If the index is out of bounds, return an error message.
+3. Write a function validateJsonStructure that takes a JSON string and an array of required properties as input, parses the JSON string, and checks if all required properties exist. Handle any errors during parsing and return appropriate error messages or a success message.
+
