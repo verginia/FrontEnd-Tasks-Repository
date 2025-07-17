@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="../../css/task18/temperatureConverter.css">
+    <script src="../../js/task18/temperatureConverter.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperature Converter</h1>
+        <div class="converter">
+            <h2>Celsius to Fahrenheit</h2>
+            <input type="number" id="celsiusInput" placeholder="Enter Celsius temperature">
+            <button onclick="convertCelsiusToFahrenheit()">Convert</button>
+            <button onclick="clearForm()">Reset</button>
+            <p id="celsiusResult"></p>
+        </div>
+
+        <div class="converter">
+            <h2>Fahrenheit to Celsius</h2>
+            <input type="number" id="fahrenheitInput" placeholder="Enter Fahrenheit temperature">
+            <button onclick="convertFahrenheitToCelsius()">Convert</button>
+            <button onclick="clearForm()">Reset</button>
+            <p id="fahrenheitResult"></p>
+        </div>
+    </div>
+</body>
+
+</html>
