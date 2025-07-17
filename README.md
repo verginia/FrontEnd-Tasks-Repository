@@ -312,3 +312,40 @@ green) to show errors validation.
 Optional:
 1.Write a JavaScript form validation script to check whether the required field(s) in the HTML form contains only letters.
 2. Write a JavaScript program to set validation for a birth date field. The date should be maximum yesterday date. You can’t select a date starting from today date to the future. 
+
+ Task-29_JavaScript_Classes
+## Task 29:
+1. Create a class called "Car" that has the following properties:
+● make (string)
+● model (string)
+● year (number)
+● speed (number)
+ The class should have the following methods:
+● accelerate: increases the speed of the car by 10
+● brake: decreases the speed of the car by 7
+● currentSpeed: returns the current speed of the car
+Create an instance of the class and test the methods by calling them and logging the results to the console.
+
+2. Create a class called "Person" that has the following properties:
+● firstName (string)
+● lastName (string)
+● age (number)
+● email (string)
+The class should have the following methods:
+● introduce: returns a string "My name is {firstName} {lastName} and I am {age} years old"
+● setEmail: sets the email property of the person with the passed value
+● getEmail: returns the email property of the person
+Create several instances of the class and test the methods by calling them and logging the results to the console.
+
+3. Create a class called "BankAccount" that has the following properties:
+● accountNumber (string) - private
+● balance (number) - private
+● accountType (string) - public
+The class should have the following methods:
+● deposit: accepts a number as an argument and increases the balance property by that amount
+● withdraw: accepts a number as an argument and decreases the balance property by that amount
+● checkBalance: returns the current balance
+● setAccountNumber: sets the account number, should only be available to class methods
+● getAccountNumber: returns the account number, should only be available to class methods
+Create an instance of the class and test the methods by calling them and logging the results to the console.
+
