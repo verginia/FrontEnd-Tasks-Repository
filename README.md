@@ -284,3 +284,16 @@ Task-26_JavaScript_Objects_Methods_Continuation
 4. In your own project integrate an element displaying current date on your web site. This element should be displayed in real time.
 5. Write a JavaScript function to get the minimum date from an array of dates.
 6. Write a JavaScript program to get the width and height of the window(any time the window is resized).
+
+Task-27_JavaScript_String_JS_Object
+## Task 27:
+1. Write a JavaScript program to get the width and height of the window (any time the window is resized).
+2. Write a function that capitalizes the first letter of each word in a given string.
+3. Write a function that sorts an array of objects by a given property.
+5. You are given an array of student objects, where each student object contains the following properties:
+● name: The name of the student (string)
+● scores: An array of scores the student has achieved (array of numbers)
+Your task is to perform the following transformations:
+● Calculate the average score for each student and add it as a new property called averageScore.
+● Filter out students whose average score is less than a given threshold.
+● Sort the remaining students by their average score in descending order.
