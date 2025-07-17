@@ -297,3 +297,18 @@ Your task is to perform the following transformations:
 ● Calculate the average score for each student and add it as a new property called averageScore.
 ● Filter out students whose average score is less than a given threshold.
 ● Sort the remaining students by their average score in descending order.
+
+Task-28_JavaScript_Regular_Expressions
+## Task 28:
+1. Write a function to extract numbers from a string.
+2. Write a function findCapitalizedWords(str) that returns an array of words that start with a capital letter.
+3. Write a function to validate date format according to some special format as for example: ‘YYYY-MM-DD’
+4. Write a function findDuplicateWords(str) that returns an array of duplicate words in the string.
+5. Write a function to extract the domain from an email.
+6. Write validation for an user form data. The output should take into consideration following validation. Add css classes (red,
+green) to show errors validation.
+![registrationForm](app/images/task28/registrationForm.png)
+
+Optional:
+1.Write a JavaScript form validation script to check whether the required field(s) in the HTML form contains only letters.
+2. Write a JavaScript program to set validation for a birth date field. The date should be maximum yesterday date. You can’t select a date starting from today date to the future. 
