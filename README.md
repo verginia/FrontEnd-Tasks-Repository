@@ -349,3 +349,25 @@ The class should have the following methods:
 ● getAccountNumber: returns the account number, should only be available to class methods
 Create an instance of the class and test the methods by calling them and logging the results to the console.
 
+Task-30_JavaScript_Map_Set_Objects
+
+## Task 30:
+
+1. Create a new Map object called "employees" and add the following key-value pairs:
+● "John Doe" => "Manager"
+● "Jane Smith" => "Developer"
+● "Bob Johnson" => "Developer"
+Create a new Set object called "skills" and add the following items:
+● "JavaScript"
+● "HTML"
+● "CSS"
+● "JavaScript" (add it again to demonstrate the uniqueness of set)
+Use the size property to log the number of key-value pairs in the "employees" Map object to the console.
+Use the get() method to log the value of the "John Doe" key in the "employees" Map object to the console.
+Use the has() method to check if the "employees" Map object has a key "Bob Johnson" and log the result to the console.
+Use the delete() method to remove the key-value pair for "Jane Smith" from the "employees" Map object.
+Use the clear() method to remove all key-value pairs from the "employees" Map object.
+Use the size property to log the number of items in the "skills" Set object to the console.
+Use the has() method to check if the "skills" Set object has the value "JavaScript" and log the result to the console.
+Use the delete() method to remove the value "CSS" from the "skills" Set object.
+Use the forEach() method to log each item in the "skills" Set object to the console.
