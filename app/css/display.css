@@ -1,0 +1,75 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styles */
+  header {
+    background-color:coral;
+    color: #fff;
+    padding: 10px;
+    border: 5px solid brown;
+  }
+  
+  .logo {
+    display: inline-block;
+    margin-right: auto;
+    border: 2px solid burlywood
+  }
+  
+  nav ul {
+    list-style-type: none;
+    text-align: right;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    border: 2px groove red;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Container styles */
+  .container {
+    display: flex;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    flex: 1;
+    background-color:bisque;
+    padding: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    flex: 3;
+    background-color: #e0e0e0;
+    padding: 20px;
+    column-width: 300px;
+    column-count: 3;
+  }
+  
+  .main-content h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  footer {
+    clear: both;
+    background-color: coral;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border: 5px solid brown;
+  }
