@@ -1,0 +1,113 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header styles */
+  header {
+    background-color:burlywood;
+    color: #fff;
+    padding: 14px;
+    overflow: hidden; /* Clear float */
+    border: 5px solid green;
+  }
+  
+  .logo {
+    float: left;
+    border: 1px solid black;
+  }
+  
+  nav {
+    float: right;
+    border: 1px solid black;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    border: 5px double red;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    border: groove blue;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    border: 5px solid blue;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    float: right;
+    width: 75%;
+    padding: 20px;
+    border: 5px solid red;
+  }
+  
+  .main-content h2 {
+    margin-bottom: 10px;
+  }
+  .content{
+    margin-top: 20px;
+  }
+  div.gallery {
+    border: 1px solid #ccc;
+    background: azure;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 20px 5px darkslategray;
+    border-radius: 15px;
+
+  }
+
+  div.gallery:hover {
+    border: 5px solid #c2ec2a;
+  }
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+  }
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.9%;
+  }
+  p{
+    margin: 5px 5px 7px 5px;
+    display: inline-block;
+  }
+  .text{
+    float: right;
+    width: 100%; 
+    margin-top: 15px;;
+  }
+  
+  /* Footer styles */
+  footer {
+    clear: both;
+    background-color:burlywood;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    border: 5px solid green;
+  }

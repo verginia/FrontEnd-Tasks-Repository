@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#bookListContainer {
+    margin-top: 20px;
+}
+
+.book {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.details {
+    display: none;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.details li {
+    list-style-type: disc;
+    background-color: #e8e8e8;
+    padding: 5px;
+    margin: 3px 0;
+    border-radius: 3px;
+}
